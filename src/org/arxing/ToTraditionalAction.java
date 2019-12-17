@@ -12,6 +12,8 @@ import com.spreada.utils.chinese.ZHConverter;
 public class ToTraditionalAction extends AnAction {
 
     @Override public void actionPerformed(AnActionEvent e) {
-        new Core().convert(e, true);
+        Project project = e.getProject();
+        Editor editor = e.getData(DataKeys.EDITOR);
+        new Core().run(project, editor, true);
     }
 }
