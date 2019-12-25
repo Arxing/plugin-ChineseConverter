@@ -5,29 +5,23 @@
     <vendor email="meiswind711108@gmail.com" url="">Arxing</vendor>
 
     <description><![CDATA[
-    幫助你快速轉換簡/繁體中文的工具
+        快速轉換簡/繁體中文的工具，只需要2個步驟
+        1. 選取要轉換的文字
+        2. Ctrl+Alt+1 => 轉換為繁體
+        3. Ctrl+Alt+2 => 轉換為簡體
     ]]></description>
 
     <change-notes><![CDATA[
-    -
+        - 初版
     ]]>
     </change-notes>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="107.121"/>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
-    <!-- uncomment to enable plugin in all products
-    <depends>com.intellij.modules.lang</depends>
-    -->
-
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
         <action id="ChineseConverter.ToTraditionalAction" class="org.arxing.ToTraditionalAction" text="To Traditional Chinese">
             <add-to-group group-id="CodeMenu" anchor="last"/>
             <keyboard-shortcut first-keystroke="ctrl alt 1" keymap="$default"/>
