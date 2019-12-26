@@ -1,20 +1,29 @@
 <idea-plugin>
     <id>org.arxing.chinese_converter</id>
     <name>Chinese Converter</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="meiswind711108@gmail.com" url="">Arxing</vendor>
 
     <description><![CDATA[
-        快速轉換簡/繁體中文的工具，只需要2個步驟
-        1. 選取要轉換的文字
-        2. Ctrl+Alt+1 => 轉換為繁體
-        3. Ctrl+Alt+2 => 轉換為簡體
+        <html>
+            This is a tool can help you transfer traditional/simplified Chinese fastly. Just need 2 ways:<br>
+            1. Select text what you want to transfer.<br>
+            2. Press `Ctrl+Alt+1` and selection will transfer to traditional Chinese.<br>
+            2. Press `Ctrl+Alt+2` and selection will transfer to simplified Chinese.<br>
+
+            快速轉換簡/繁體中文的工具，只需要2個步驟:<br>
+            1. 選取要轉換的文字<br>
+            2. Ctrl+Alt+1 => 轉換為繁體<br>
+            3. Ctrl+Alt+2 => 轉換為簡體<br>
+
+            <a href="https://github.com/Arxing/plugin-ChineseConverter">source code</a>
+        </html>
+
     ]]></description>
 
-    <change-notes><![CDATA[
-        - 初版
-    ]]>
-    </change-notes>
+    <!--<change-notes><![CDATA[-->
+    <!--]]>-->
+    <!--</change-notes>-->
 
     <idea-version since-build="107.121"/>
 
@@ -32,4 +41,5 @@
         </action>
     </actions>
 
+    <depends>com.intellij.modules.java</depends>
 </idea-plugin>
