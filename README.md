@@ -10,8 +10,7 @@
 `GoLand`、`Rider`、`ReSharper`...等
 
 ## 安裝
-1. [點此下載](https://github.com/Arxing/plugin-ChineseConverter/raw/master/ChineseConverter.zip)後
-到`File -> Settings -> Plugins -> Install plugin from disk`選取下載的zip檔安裝，安裝後重開IDE即可使用
+1. 直接到`File -> Settings -> Plugins`搜尋`Chinese Converter`即可安裝
 
 ## 使用方法
 1. 在任何地方選取要轉換的字串
