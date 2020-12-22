@@ -2,6 +2,8 @@
 
 ## 繁/簡體中文快速轉換
 
+> 此專案已升級為Gradle專案，請參閱[Chinese Converter-Gradle](https://github.com/Arxing/Plugin-ChineseConverter-Gradle)
+
 ### Demo
 
 ![](https://github.com/Arxing/plugin-ChineseConverter/blob/master/demo/demo1.gif)
